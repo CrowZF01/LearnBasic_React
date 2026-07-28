@@ -1,5 +1,6 @@
 import UserGreeting from "./UserGreeting.jsx"
 import Student from "./Student.jsx"
+import List from "./List.jsx"
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Student name="Sandy" age={25} isStudent={true} />
       <Student />
       <UserGreeting isLoggedIn={true} username="BroCode" />
+      <List />
     </>
   )
 }
