@@ -1,4 +1,4 @@
-
+import UserGreeting from "./UserGreeting.jsx"
 import Student from "./Student.jsx"
 
 function App() {
@@ -8,6 +8,8 @@ function App() {
       <Student name="Patrick" age={27} isStudent={false} />
       <Student name="Squidward" age={45} isStudent={false} />
       <Student name="Sandy" age={25} isStudent={true} />
+      <Student />
+      <UserGreeting isLoggedIn={true} username="BroCode" />
     </>
   )
 }
