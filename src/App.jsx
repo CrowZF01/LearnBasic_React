@@ -5,7 +5,7 @@ import ColorPicker from "./ColorPicker";
 function App() {
   return (
     <>
-      <Counter />
+      <MyComponent />
     </>
 
   )
